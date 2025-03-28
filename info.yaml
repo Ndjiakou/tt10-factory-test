@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Tiny Tapeout Factory Test "           # Project title
-  author:       "Ndjiakou Maiva"                 # Your name (replace with your actual name or GitHub username)
+  author:       "Ndjiakou Kaptue Maiva"                 # Your name (replace with your actual name or GitHub username)
   discord:      ""                          # Optional: Your discord username
   description:  "A MAC design simulation for testing and verification of output values." # One-line description
   language:     "SystemVerilog"                   # The language used, Verilog in this case
