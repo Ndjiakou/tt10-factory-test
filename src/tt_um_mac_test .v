@@ -5,7 +5,7 @@
 `define EXPECT "out_answer.txt"
 `timescale 1ns / 10ps  // Ensure this is consistent across all modules
 
-module mac_test;
+module tt_um_mac_test;
 
 reg [3:0] in_a ,in_b ; 
 reg in_valid_a,in_valid_b;
