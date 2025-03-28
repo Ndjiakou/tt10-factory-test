@@ -1,10 +1,10 @@
 # Tiny Tapeout project information
 project:
-  title:        "MAC Test Design"           # Project title
+  title:        "Tiny Tapeout Factory Test "           # Project title
   author:       "Ndjiakou Maiva"                 # Your name (replace with your actual name or GitHub username)
   discord:      ""                          # Optional: Your discord username
   description:  "A MAC design simulation for testing and verification of output values." # One-line description
-  language:     "Verilog"                   # The language used, Verilog in this case
+  language:     "SystemVerilog"                   # The language used, Verilog in this case
   clock_hz:     1000000000                  # Clock frequency in Hz (set to 1 GHz as an example)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
@@ -17,7 +17,7 @@ project:
   # Source files must be in ./src and you must list each source file separately.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - "mac_test.v"                         # Include your mac_test.v Verilog file here
+    - "tt_um_mac_test.v"                         # Include your mac_test.v Verilog file here
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
