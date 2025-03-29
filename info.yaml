@@ -4,8 +4,8 @@ project:
   author:       "Ndjiakou Kaptue Maiva"                 # Your name (replace with your actual name or GitHub username)
   discord:      ""                          # Optional: Your discord username
   description:  "A MAC test module ." # One-line description
-  language:     "SystemVerilog"                   # The language used, Verilog in this case
-  clock_hz:     1000000000                  # Clock frequency in Hz (set to 1 GHz as an example)
+  language:     "Verilog"                   # The language used, Verilog in this case
+  clock_hz:     0                  # Clock frequency in Hz (set to 1 GHz as an example)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"                             # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2, or 8x2
