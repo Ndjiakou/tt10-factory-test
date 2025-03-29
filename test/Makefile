@@ -41,7 +41,7 @@ VERILOG_SOURCES += $(PWD)/tb.v   # Make sure tb.v is your testbench file, modify
 TOPLEVEL = tb  # Top-level module for simulation (your testbench)
 
 # MODULE is the basename of the Python test file (without the .py extension)
-MODULE = test_mac_test  # Your Python test file should be named test_mac_test.py
+MODULE = test # Your Python test file should be named test_mac_test.py
 
 # Include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim
